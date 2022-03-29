@@ -3,10 +3,10 @@ const jwt = require("jsonwebtoken")
 const express = require('express')
 const cors = require('cors')
 const reset = new (require('rest-mssql-nodejs'))({
-    user:process.env.USER,
-    password:process.env.PASSWORD,
-    server:process.env.SERVER,
-    database:process.env.DATABASE,
+    user:'aescobarr',
+    password:'Hesoyam1995*',
+    server:'prueba-ingreso.database.windows.net',
+    database:pruebastoken,
     encrypt: true,
 })
 
