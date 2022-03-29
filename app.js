@@ -107,3 +107,9 @@ app.listen(port,()=>{
     console.log(`http://localhost:${port}`)
 })
 
+/*
+ npm install
+  npm run build --if-present
+  npm run test --if-present
+
+*/
