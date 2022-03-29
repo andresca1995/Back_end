@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const allowedOrigins= ['http://localhost:3000'];
+const allowedOrigins= ['http://localhost:4200'];
 var corsOptionsDelegate = (req, callback) => {
 var corsOptions;
 console.log(req.header('Origin'));
