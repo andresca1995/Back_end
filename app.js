@@ -14,7 +14,11 @@ const reset = new (require('rest-mssql-nodejs'))({
 
 const app = express()
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin:['http://localhost:4200'],
+    credentials:true,
+    }
+))
 
 const port = process.env.puerto || 3000;
 //Envio de datos para el login
